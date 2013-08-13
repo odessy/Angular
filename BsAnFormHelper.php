@@ -4,16 +4,16 @@ App::uses('FormHelper', 'View/Helper');
 
 class BsAnFormHelper extends FormHelper {
 
-  public $_options = array(    
-							'inputDefaults' => array(
-								'format' => array('before', 'label', 'between', 'input', 'error', 'after'),
-								'div' => array('class' => 'control-group'),
-								'label' => array('class' => 'control-label'),
-								'between' => '<div class="controls">',
-								'after' => '</div>',
-								'error' => array('attributes' => array('wrap' => 'div', 'class' => 'error-message') )
-							)
-						);
+  	public $_options = array(    
+					'inputDefaults' => array(
+						'format' => array('before', 'label', 'between', 'input', 'error', 'after'),
+						'div' => array('class' => 'control-group'),
+						'label' => array('class' => 'control-label'),
+						'between' => '<div class="controls">',
+						'after' => '</div>',
+						'error' => array('attributes' => array('wrap' => 'div', 'class' => 'error-message') )
+					)
+				);
 						
 	public $_rules = array();
 	
